@@ -29,7 +29,7 @@ address = "0x33f45975f14434a7950446ce9c4cbbc64e5d3ffb5c5a8e7a9dce3f05ae962442"
 3. Change line 3 in `src/main.sw` to a new number 
 
 ```rust
-const VERSION: u8 = 7u8;
+const VERSION: u8 = 2u8;
 ```
 
 4. Redeploy the contract using `forc deploy` again 
